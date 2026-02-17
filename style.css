@@ -1,10 +1,10 @@
 	/* --- GLOBAL TYPOGRAPHY IMPROVEMENT --- */
 	body {
-		line-height: 1.7;
+		line-height: 1.6;
 	}
 
 	p {
-		margin-bottom: 1.2rem;
+		margin-bottom: 1.3rem;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -14,10 +14,10 @@
 
 	/* --- CONTAINER SYSTEM --- */
 	.container {
-		max-width: 1200px;
+		max-width: 1300px;
 		margin: 0 auto;
-		padding: 0 24px;
-	}
+		padding: 0%;
+		}
 
 	/* --- SECTION SPACING --- */
 	section {
@@ -294,7 +294,6 @@ ul, ol {
 	border-bottom: 1.5px solid rgba(115,12,30,0.22);
 	padding: 1.2rem 0 1.2rem 0;
 	min-height: 72px;
-	border-radius: 32px;
 	box-shadow: 0 8px 32px 0 rgba(20,15,23,0.18), 0 2px 8px 0 rgba(115,12,30,0.12);
 	backdrop-filter: blur(18px);
 	position: sticky;
