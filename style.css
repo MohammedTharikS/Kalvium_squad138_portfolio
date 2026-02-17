@@ -1,3 +1,14 @@
+	.search-bar-center {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin: 0 auto 2.5rem auto;
+	}
+	width: 100%;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
 /* Center section headings for mentors and folks */
 .mentors-heading, .folks-heading, .mentors-title, .folks-title {
 	color: #fff;
@@ -408,19 +419,34 @@ ul, ol {
 .fellows-search-bar {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 2.5rem;
+	align-items: center;
+	width: 100%;
+	margin: 0 auto 2.5rem auto;
 }
 .search-input {
-	padding: 0.9rem 1.5rem;
+	padding: 1.1rem 1.7rem;
 	border-radius: var(--radius);
-	border: 1.5px solid var(--primary-blue)33;
-	font-size: 1.1rem;
-	width: 100%;
-	max-width: 350px;
-	background: var(--card-bg);
-	color: var(--text-light);
-	box-shadow: 0 2px 8px var(--primary-blue)11;
+	border: 2px solid #caa5cb;
+	font-size: 1.18rem;
+	width: 420px;
+	max-width: 90vw;
+	margin-left: auto;
+	margin-right: auto;
+	background: #18171a;
+	color: #fff;
+	box-shadow: 0 0 16px #caa5cb99, 0 0 32px #fff2;
 	transition: border var(--transition), box-shadow var(--transition);
+	outline: none;
+	text-shadow: 0 0 8px #fff, 0 0 16px #fff8;
+	text-align: center;
+	font-weight: 500;
+}
+::placeholder {
+	color: #e0dbe6;
+	opacity: 1;
+	font-size: 1.1rem;
+	text-align: center;
+	text-shadow: 0 0 8px #fff, 0 0 16px #fff8;
 }
 .search-input:focus {
 	outline: none;
