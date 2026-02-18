@@ -75,8 +75,8 @@
 		color: transparent;
 		text-align: center;
 		text-transform: uppercase;
-		-webkit-text-stroke: 2px #e34a5c;
-		text-shadow: 0 0 32px #e34a5c, 0 0 64px #e34a5c44, 0 0 8px #fff8;
+		-webkit-text-stroke: 3px #e34a5c;
+		text-shadow: none;
 		background: none;
 	}
 	.search-bar-center {
