@@ -49,35 +49,56 @@
 		line-height: 1.8;
 		margin-bottom: 1.5rem;
 	}
-	/* Modern glowing footer inspired by ReviewSync */
-	.modern-footer {
-		width: 100%;
-		background: #18191a;
-		backdrop-filter: blur(12px);
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding: 4.5rem 0 4.5rem 0;
-		margin-top: 8rem;
-		position: static;
-		left: unset;
-		right: unset;
-		bottom: unset;
-		z-index: unset;
-		border-radius: 32px 32px 0 0;
-		box-shadow: 0 -8px 32px 0 rgba(20,15,23,0.18), 0 -2px 8px 0 rgba(115,12,30,0.12);
-	}
-	.footer-glow-text {
-		font-family: 'Inter', Arial, sans-serif;
-		font-size: 9rem;
-		font-weight: 900;
-		letter-spacing: 0.12em;
-		color: transparent;
+	/* Premium Outlined Neon Footer */
+	.footer {
+		background: #000;
+		padding: 140px 0;
 		text-align: center;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.footer-wordmark {
+		width: min(1200px, 92vw);
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		filter: drop-shadow(0 0 10px rgba(225, 6, 0, 0.6))
+			drop-shadow(0 0 24px rgba(225, 6, 0, 0.5))
+			drop-shadow(0 0 52px rgba(225, 6, 0, 0.36))
+			drop-shadow(0 0 92px rgba(225, 6, 0, 0.24));
+		opacity: 0.95;
+		position: relative;
+		z-index: 1;
+	}
+
+	.footer-wordmark text {
+		font-family: 'Poppins', sans-serif;
+		font-size: 160px;
+		font-weight: 900;
+		letter-spacing: 10px;
 		text-transform: uppercase;
-		-webkit-text-stroke: 3px #e34a5c;
-		text-shadow: none;
-		background: none;
+		fill: none;
+		stroke: #E10600;
+		stroke-width: 1.5px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		shape-rendering: geometricPrecision;
+		paint-order: stroke;
+		filter: drop-shadow(0 0 8px rgba(225, 6, 0, 0.55))
+			drop-shadow(0 0 18px rgba(225, 6, 0, 0.4));
+	}
+
+	@media (max-width: 768px) {
+		.footer-wordmark {
+			width: 96vw;
+		}
+
+		.footer-wordmark text {
+			font-size: 110px;
+			letter-spacing: 6px;
+			stroke-width: 1.2px;
+		}
 	}
 	.search-bar-center {
 		display: flex;
@@ -125,13 +146,6 @@
 	height: 45px;
 	width: auto;
 	max-width: 120px;
-}
-.navbar-logo {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	gap: 0.5rem;
-	flex-shrink: 0;
 }
 .logo-intro {
 	width: 180px;
@@ -717,47 +731,7 @@ ul, ol {
 	backdrop-filter: blur(4px);
 	font-size: 1.1rem;
 	margin-bottom: 1.2rem;
-}
-.profile-dream {
-	color: var(--accent-purple);
-	font-size: 1.05rem;
-	font-weight: 600;
-	margin-bottom: 0.7rem;
-}
-.profile-skills {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 0.7rem;
-	justify-content: center;
-	margin-top: 1.2rem;
-}
-
-.profile-skill-tag {
-	background: rgba(177, 18, 38, 0.08);
-	color: var(--primary-red);
-	border-radius: 999px;
-	border: 1px solid var(--primary-red);
-	padding: 0.3rem 1.1rem;
-	font-size: 0.98rem;
-	font-weight: 600;
-	box-shadow: 0 1px 4px var(--soft-red-glow);
-}
-.profile-projects-grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	gap: 2rem;
-	margin-top: 1.5rem;
-}
-
-.profile-project-card {
-	background: var(--card-bg);
-	backdrop-filter: var(--glass-blur);
-	border-radius: var(--radius);
-	box-shadow: var(--shadow-soft);
-	padding: 1.5rem 1.2rem 1.2rem 1.2rem;
-	border: 1px solid var(--glass-border);
-	transition: transform var(--transition), box-shadow var(--transition), border var(--transition);
-	display: flex;
+: flex;
 	flex-direction: column;
 	gap: 0.7rem;
 }
