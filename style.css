@@ -170,8 +170,10 @@
 /* MENTORS GRID LAYOUT */
 .mentors-grid {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 2.5rem;
 	justify-content: center;
+	align-items: flex-start;
 	margin-top: 2.5rem;
 }
 .mentor-card {

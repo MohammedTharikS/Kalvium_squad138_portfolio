@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 		// Mentor 2
 		{
-			id: 'mentor-Hanuram',
+			id: 'mentor-hanuram',
 			name: 'Hanuram.T',
 			role: 'Mentor',
 			image: 'https://i.ibb.co/ynQ90dvT/IMG-3197-Hanuram-T.jpg',
@@ -208,23 +208,441 @@ document.addEventListener('DOMContentLoaded', () => {
 			bio: 'Academic mentor cum business analyst, balancing logic, data, and good vibes.',
 			
 		},
-		// Demo Fellows
+		// Folks (index.html)
 		{
-			id: 'fellow-aarav',
-			name: 'Aarav Kumar',
+			id: 'folks-aravind-selva-jas-j-s',
+			name: 'Aravind Selva Jas J S',
 			role: 'Fellow',
-			image: 'images/aarav.jpg',
-			github: 'https://github.com/aaravkumar',
-			linkedin: 'https://linkedin.com/in/aaravkumar',
-			bio: 'Front-end enthusiast. Loves React and design systems.',
-			dream: 'To build products used by millions.',
-			skills: ['React', 'JavaScript', 'CSS'],
-			projects: [
-				{ title: 'Taskly', description: 'A productivity app for teams.', link: 'https://github.com/aaravkumar/taskly' }
-			]
+			image: 'https://i.ibb.co/4nK0j9MH/250310106005-Arvind-selva-Jas-J-S.jpg',
+			github: 'https://github.com/arvindselvajas0222-coder',
+			linkedin: 'https://www.linkedin.com/in/arvind-selva-jas-j-s-68a79b381/',
+			bio: 'I’m really good at turning ordinary moments into fun adventures',
+			dream: '',
+			skills: [],
+			projects: []
 		},
 		{
-			id: 'fellow-priya',
+			id: 'folks-ashwin-raj',
+			name: 'Ashwin Raj',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/Q7xJVTgt/Generated-Image-October-31-2025-10-37-PM-1-Ashwin-Raj.png',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-ashwath-palanisamy',
+			name: 'Ashwath Palanisamy',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/jmXn5nc/20260217-171252-Ashwath-Palanisamy.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-chandana-s',
+			name: 'Chandana S',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/s767H4c/photo-1-Chandana-E.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-chandru-a',
+			name: 'Chandru A',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/Yw2J9S2/Screenshot-20260217-200317-Chandru-A.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-chandru-s',
+			name: 'Chandru S',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/dwq9RVLf/250310106011-Chandru-S-Chandru-S.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-david-g',
+			name: 'David G',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/RT8WXvHL/david-id-image-DAVID-G.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-deboraah-issac-i',
+			name: 'Deboraah Issac I',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/bgz10nr0/Whats-App-Image-2026-02-17-at-14-00-53-Deboraah-Issac-I.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-deepika-v',
+			name: 'Deepika V',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/FL30m2NF/IMG-20250916-WA0037-Deepika-V.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-dhinesh-babu',
+			name: 'Dhinesh Babu',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/WWcMCst2/DSC-1053-copy-jpg-Dhinesh-Babu.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-dinesh-p',
+			name: 'Dinesh P',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/JFnPHszs/IMG-20260125-204551-269-1-Dinesh-P.webp',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-edupalli-sai-praneeth',
+			name: 'Edupalli Sai Praneeth',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/rG7TpZv5/Whats-App-Image-2026-02-18-at-11-03-54-AM-Edupalli-Sai-Praneeth-Lokesh.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-gkg-arun-ragav',
+			name: 'G.K.G. Arun Ragav',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/YnRwkdp/Gemini-Generated-Image-dzecm0dzecm0dzec-Arun-ragav-G-K-G.png',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-gundla-saigoutham',
+			name: 'Gundla Saigoutham',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/PZCHFkBd/Whats-App-Image-2025-10-31-at-10-30-31-fcd3cf49-Gundla-Sai-Gowtham.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-hariharan-s',
+			name: 'Hariharan S',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/1W2mXt7/photo-Hari-Charan-P.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-harshini-j',
+			name: 'Harshini J',
+			role: 'Fellow',
+			image: 'https://via.placeholder.com/200?text=Photo',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-jeevanand-j',
+			name: 'Jeevanand J',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/Lh0WD4Wg/IMG-20251116-235142-Jeevanand-Jaisankar.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-karthikeyan',
+			name: 'Karthikeyan',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/YBkYNQNb/my-pic-Karthikeyan-A-E.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-kishore-r',
+			name: 'Kishore R',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/5WSjXssD/Whats-App-Image-2026-02-17-at-18-55-50-Kishore-R.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-manoj-kumar-p',
+			name: 'Manoj Kumar P',
+			role: 'Fellow',
+			image: 'https://via.placeholder.com/200?text=Photo',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-mohammed-tharik-s',
+			name: 'Mohammed Tharik S',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/9HKsvTRR/id-card-Mohammed-Tharik-S.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-m-ram-charan',
+			name: 'M Ram Charan',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/nqv8mN9z/Whats-App-Image-2026-02-17-at-8-49-37-PM-Medaboina-Ram-Charan.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-navya-d',
+			name: 'Navya D',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/xTstHjX/IMG-20260218-011209-Navya-D.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-n-sherly',
+			name: 'N Sherly',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/n8Ydcd1R/IMG-20260217-164402-1-Sherly-N.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-nithyanandharaj-m',
+			name: 'Nithyanandharaj M',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/Q3Fn3KBd/IMG-20260217-145330-Nithyanandharaj-M.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-pradheesh-s',
+			name: 'Pradheesh S',
+			role: 'Fellow',
+			image: 'https://via.placeholder.com/200?text=Photo',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-prasanna-kumar-a',
+			name: 'Prasanna Kumar A',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/HfBSScKZ/20260112-122625-1-Prasanna-Kumar-A.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-purushothaman-k',
+			name: 'Purushothaman K',
+			role: 'Fellow',
+			image: 'https://via.placeholder.com/200?text=Photo',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-sandeep-v',
+			name: 'Sandeep V',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/WNyZR8J4/2026-02-17-Sandeep-V.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-sanjay-chelliah',
+			name: 'Sanjay Chelliah',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/WNC3Kxjq/unnamed-Sanjay-Chelliah.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-sasi-mahesh',
+			name: 'Sasi Mahesh',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/sdp5QWCt/IMG-20251229-210000-Sasi-Mahesh.png',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-shree-vidhya-t',
+			name: 'Shree Vidhya T',
+			role: 'Fellow',
+			image: 'https://via.placeholder.com/200?text=Photo',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-surjith-sri-k',
+			name: 'Surjith Sri K',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/NdGgkR66/passport-size-photo-Surjith-Sri-K.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-tavanidhiragavi-b-b',
+			name: 'Tavanidhiragavi B B',
+			role: 'Fellow',
+			image: 'https://via.placeholder.com/200?text=Photo',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-udhaya-e',
+			name: 'Udhaya E',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/ym7w9FpD/udhaya-Udhaya-E.jpg',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-vignesh-m',
+			name: 'Vignesh M',
+			role: 'Fellow',
+			image: 'https://via.placeholder.com/200?text=Photo',
+			github: '',
+			linkedin: '',
+			bio: '',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-priya',
 			name: 'Priya Sharma',
 			role: 'Fellow',
 			image: 'images/priya.jpg',
@@ -238,7 +656,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			]
 		},
 		{
-			id: 'fellow-rohan',
+			id: 'folks-rohan',
 			name: 'Rohan Mehta',
 			role: 'Fellow',
 			image: 'images/rohan.jpg',
@@ -252,7 +670,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			]
 		},
 		{
-			id: 'fellow-sara',
+			id: 'folks-sara',
 			name: 'Sara Iqbal',
 			role: 'Fellow',
 			image: 'images/sara.jpg',
@@ -266,7 +684,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			]
 		},
 		{
-			id: 'fellow-dev',
+			id: 'folks-dev',
 			name: 'Dev Patel',
 			role: 'Fellow',
 			image: 'images/dev.jpg',
@@ -739,9 +1157,16 @@ document.addEventListener('DOMContentLoaded', () => {
 		const img = document.createElement('div');
 		img.className = cardType === 'mentor' ? 'mentor-photo' : 'fellow-photo';
 		if (cardType === 'mentor' && member.role === 'Main Mentor') img.classList.add('mentor-photo-main');
-		img.style.backgroundImage = `url('${member.image}')`;
-		img.style.backgroundSize = 'cover';
-		img.style.backgroundPosition = 'center';
+        
+        const imageElement = document.createElement('img');
+        imageElement.src = member.image;
+        imageElement.alt = member.name;
+        imageElement.style.width = '100%';
+        imageElement.style.height = '100%';
+        imageElement.style.objectFit = 'cover';
+        imageElement.style.borderRadius = '50%';
+        img.appendChild(imageElement);
+
 		img.setAttribute('aria-label', member.name);
 		// Name
 		const name = document.createElement('div');
