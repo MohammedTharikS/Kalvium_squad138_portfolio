@@ -179,46 +179,68 @@ document.addEventListener('DOMContentLoaded', () => {
 	const squadMembers = [
 		// Main Mentor
 		{
-			id: 'main-mentor',
-			name: 'Karunakaran.H',
+			id: 'Program-Manager-Karunakaran',
+			name: 'Karunakaran H',
 			role: 'Program Manager',
 			image: 'https://i.ibb.co/fdx5tJG2/Karunakaran-H-Karunakaran.jpg',
 			github:'https://github.com/',
 			linkedin: 'https://www.linkedin.com/in/h-karunakaran-3b1285376',
 			bio: 'Karunakaran is a dedicated academic professional passionate about student development, technology-driven learning, and building strong campus communities. He focuses on mentoring students in problem solving, discipline, and career readiness. With a commitment to continuous improvement, he works closely with squads to create an environment that encourages creativity, accountability, and practical learning.',
-			
+			dream: '',
+			skills: [],
+			projects: []
 		},
+		
 		// Mentor 1
 		{
 			id: 'mentor-aravind',
-			name: 'Aravind.R',
+			name: 'Aravind R',
 			role: 'Mentor',
 			image: 'https://i.ibb.co/JFjMddRh/Aravind-R-2.jpg',
 			github: 'https://github.com/Aravindrathenam',
 			linkedin: 'https://www.linkedin.com/in/aravind-r-812634245/',
 			bio: 'Currently a professional Wait, why is it doing that? investigator at Kalvium. As an Academic Mentor, I spend my days helping students realize that 90% of coding is just staring at a screen until the screen blinks first. I’m part-time debugger, part-time cheerleader, and full-time convinced that the semicolon is the most powerful character in the English language. I don’t just teach people how to code; I teach them how to not throw their laptops out the window.',
-
+            dream: '',
+			skills: [],
+			projects: []
 		},
+		
 		// Mentor 2
 		{
 			id: 'mentor-hanuram',
-			name: 'Hanuram.T',
+			name: 'Hanuram T',
 			role: 'Mentor',
 			image: 'https://i.ibb.co/ynQ90dvT/IMG-3197-Hanuram-T.jpg',
 			github: 'https://github.com/Mentor-Ram',
 			linkedin: 'https://www.linkedin.com/in/hanuram-t',
 			bio: 'Academic mentor cum business analyst, balancing logic, data, and good vibes.',
-			
+			dream: '',
+			skills: [],
+			projects: []
+		},
+
+		// Mentor 3
+		{
+			id: 'mentor-santushta',
+			name: 'Santushta Iyer A',
+			role: 'Mentor',
+			image: 'https://i.ibb.co/Kpjj5hNb/shantusta.jpg',
+			github: 'https://github.com/santushta',
+			linkedin: 'https://www.linkedin.com/in/santushta-iyer-a-99862a25b/',
+			bio: 'Dedicated mentor passionate about supporting student growth and fostering a collaborative learning environment.',
+			dream: '',
+			skills: [],
+			projects: []
 		},
 		// Folks (index.html)
 		{
 			id: 'folks-aravind-selva-jas-j-s',
 			name: 'Aravind Selva Jas J S',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/4nK0j9MH/250310106005-Arvind-selva-Jas-J-S.jpg',
 			github: 'https://github.com/arvindselvajas0222-coder',
 			linkedin: 'https://www.linkedin.com/in/arvind-selva-jas-j-s-68a79b381/',
-			bio: 'I am a passionate and dedicated student pursuing B.Tech in Computer Science Engineering. I have a strong interest in programming, problem-solving, and exploring new technologies. My goal is to become a skilled software developer and contribute to innovative projects.',
+			bio: 'I am Aravind Selva Jas J S, a first-year Computer Science student at St. Joseph’s University, Chennai, powered by Kalvium. I am passionate about learning new technologies and building innovative solutions. With a curious mindset and a drive for continuous improvement, I am eager to explore the world of programming and contribute to impactful projects.',
 			dream: '',
 			skills: [],
 			projects: []
@@ -226,7 +248,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-ashwin-raj',
 			name: 'Ashwin Raj',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/Q7xJVTgt/Generated-Image-October-31-2025-10-37-PM-1-Ashwin-Raj.png',
 			github: 'https://github.com/Partha1107',
 			linkedin: 'https://www.linkedin.com/in/ashwin-raj-002188383?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -238,7 +260,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-ashwath-palanisamy',
 			name: 'Ashwath Palanisamy',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/jmXn5nc/20260217-171252-Ashwath-Palanisamy.jpg',
 			github: 'https://github.com/Ashwath-Palanisamy',
 			linkedin: 'https://www.linkedin.com/in/ashwathpalanisamy/',
@@ -249,7 +271,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-chandana-s',
 			name: 'Chandana S',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/s767H4c/photo-1-Chandana-E.jpg',
 			github: 'https://github.com/chandanaes139-lang',
 			linkedin: 'https://www.linkedin.com/in/chandana-elavarasan-a10964384?utm_source=share_via&utm_content=profile&utm_medium=member_android',
@@ -261,7 +283,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-chandru-a',
 			name: 'Chandru A',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/Yw2J9S2/Screenshot-20260217-200317-Chandru-A.jpg',
 			github: 'https://github.com/chandrua138',
 			linkedin: 'https://www.linkedin.com/in/chandru-a-331451384/',
@@ -273,22 +295,22 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-chandru-s',
 			name: 'Chandru S',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/dwq9RVLf/250310106011-Chandru-S-Chandru-S.jpg',
 			github: 'https://github.com/chandru24126',
 			linkedin: 'https://www.linkedin.com/in/chandru-sk-999077384',
-			bio: 'Iam chandru ,Learner at kalvium.',
+			bio: 'Hi, I’m Chandru S. I’m someone who believes that every day is a new opportunity to learn and improve. As a first-year college student, I’m exploring new ideas, building my skills, and pushing myself beyond my comfort zone. I enjoy working with others, sharing ideas, and turning challenges into learning experiences. My goal is simple — to grow stronger and better every day',
 			skills: [],
 			projects: []
 		},
 		{
 			id: 'folks-david-g',
 			name: 'David G',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/RT8WXvHL/david-id-image-DAVID-G.jpg',
 			github: 'https://github.com/davidgs138-cyber',
 			linkedin: 'https://linkedin.com/in/david-g-6bb3323b1',
-			bio: 'I am website developer',
+			bio: 'Hi, I’m David. I’m someone who believes that every day is a new opportunity to learn and improve. As a first-year college student, I’m exploring new ideas, building my skills, and pushing myself beyond my comfort zone. I enjoy working with others, sharing ideas, and turning challenges into learning experiences. My goal is simple — to grow stronger and better every day',
 			dream: '',
 			skills: [],
 			projects: []
@@ -296,11 +318,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-deboraah-issac-i',
 			name: 'Deboraah Issac I',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/7N2mZktZ/Whats-App-Image-2026-02-17-at-14-00-53-Deboraah-Issac-I.jpg',
 			github: 'https://github.com/deboraahissacats138-cmyx',
 			linkedin: 'https://www.linkedin.com/in/deboraah-issac-ab0813388?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-			bio: 'I am studying in B-Tech CSE',
+			bio: 'Hi, I’m Deboraahissac, a first-year college student who’s curious, motivated, and always ready to learn. I enjoy working with others, taking on challenges, and continuously improving myself.',
 			dream: '',
 			skills: [],
 			projects: []
@@ -308,7 +330,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-deepika-v',
 			name: 'Deepika V',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/FL30m2NF/IMG-20250916-WA0037-Deepika-V.jpg',
 			github: 'https://github.com/deepikavs138-design',
 			linkedin: 'https://www.linkedin.com/in/deepika-v-957099382',
@@ -320,7 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-dhinesh-babu',
 			name: 'Dhinesh Babu',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/WWcMCst2/DSC-1053-copy-jpg-Dhinesh-Babu.jpg',
 			github: 'https://github.com/dhineshbabus138-commit',
 			linkedin: 'https://www.linkedin.com/in/dhinesh-babu-software-engg',
@@ -332,11 +354,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-dinesh-p',
 			name: 'Dinesh P',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/JFnPHszs/IMG-20260125-204551-269-1-Dinesh-P.webp',
 			github: 'https://github.com/dineshps138-ds',
 			linkedin: 'https://www.linkedin.com/in/dinesh-prakasam-a8279a381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-			bio: 'I am year student in St joseph university in palanchur',
+			bio: 'Student at St. Joseph University, Palanchur, dedicated to academic growth and professional development.Focused on building a strong foundation in my field within the university\'s vibrant learning environment.Aspiring professional committed to excellence and contributing to the campus community.',
 			dream: '',
 			skills: [],
 			projects: []
@@ -344,7 +366,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-edupalli-sai-praneeth',
 			name: 'Edupalli Sai Praneeth',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/rG7TpZv5/Whats-App-Image-2026-02-18-at-11-03-54-AM-Edupalli-Sai-Praneeth-Lokesh.jpg',
 			github: 'https://github.com/edupallilokeshs138-bot',
 			linkedin: 'https://www.linkedin.com/in/edupalli-sai-praneeth-3ab348383',
@@ -355,8 +377,8 @@ document.addEventListener('DOMContentLoaded', () => {
 		},
 		{
 			id: 'folks-gkg-arun-ragav',
-			name: 'G.K.G. Arun Ragav',
-			role: 'Fellow',
+			name: 'Arun Ragav G.K.G.',
+			role: 'Folk',
 			image: 'https://i.ibb.co/YnRwkdp/Gemini-Generated-Image-dzecm0dzecm0dzec-Arun-ragav-G-K-G.png',
 			github: 'https://github.com/arun-ragav',
 			linkedin: 'https://www.linkedin.com/in/arun-ragav-589061384',
@@ -368,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-gundla-saigoutham',
 			name: 'Gundla Saigoutham',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/PZCHFkBd/Whats-App-Image-2025-10-31-at-10-30-31-fcd3cf49-Gundla-Sai-Gowtham.jpg',
 			github: 'https://github.com/gundlagowthams138-cell',
 			linkedin: 'https://www.linkedin.com/in/gundla-sai-gowtham-985460390/',
@@ -378,9 +400,9 @@ document.addEventListener('DOMContentLoaded', () => {
 			projects: []
 		},
 		{
-			id: 'folks-haricharan-p',
+			id: 'folks-hariharan-s',
 			name: 'Hari Charan P',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/Q7YNyrKD/photo-Hari-Charan-P.jpg',
 			github: 'https://github.com/harips138-droid',
 			linkedin: 'https://www.linkedin.com/in/hari-charan-p-5006393b1/',
@@ -392,7 +414,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-harshini-j',
 			name: 'Harshini J',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/N2gwZy1M/IMG-20260218-102709-Harshini-J.jpg',
 			github: 'https://github.com/harshinijs138-svg',
 			linkedin: 'https://www.linkedin.com/in/harshini-j-244611383?utm_source=share_via&utm_content=profile&utm_medium=member_android',
@@ -404,7 +426,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-jeevanand-j',
 			name: 'Jeevanand J',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/Lh0WD4Wg/IMG-20251116-235142-Jeevanand-Jaisankar.jpg',
 			github: 'https://github.com/jeevanand-jaisankar',
 			linkedin: 'https://www.linkedin.com/in/jeevanand-j-575676281/',
@@ -416,11 +438,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-karthikeyan',
 			name: 'Karthikeyan',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/YBkYNQNb/my-pic-Karthikeyan-A-E.jpg',
 			github: 'https://github.com/karthikeyan24-kk',
 			linkedin: 'https://www.linkedin.com/in/karthikeyan-a-e-8b3847381/',
-			bio: 'I am learning new things in Kalvium.',
+			bio: 'Hello, I’m Karthikeyan. I am a first-year college student with a strong passion for learning and developing new skills. I consider myself a committed and responsible individual who works well in teams and enjoys taking on new challenges. I am continuously striving to grow both personally and professionally, and I look forward to gaining more experience and contributing effectively wherever I can.',
 			dream: '',
 			skills: [],
 			projects: []
@@ -428,7 +450,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-kishore-r',
 			name: 'Kishore R',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/5WSjXssD/Whats-App-Image-2026-02-17-at-18-55-50-Kishore-R.jpg',
 			github: 'https://github.com/kishorers138-cyber',
 			linkedin: 'https://www.linkedin.com/in/kishore-r-6bb4a6383/',
@@ -440,7 +462,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-manoj-kumar-p',
 			name: 'Manoj Kumar P',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/fz17Bkt3/Screenshot-2026-02-17-125857-Manoj-Kumar-Ponnusamy.png',
 			github: 'https://github.com/manojponnusamy2032-star',
 			linkedin: 'https://www.linkedin.com/in/manoj-kumar-p-621049386',
@@ -452,7 +474,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-mohammed-tharik-s',
 			name: 'Mohammed Tharik S',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/9HKsvTRR/id-card-Mohammed-Tharik-S.jpg',
 			github: 'https://github.com/MohammedTharikS',
 			linkedin: 'https://www.linkedin.com/in/mohammed-tharik-s-26b108384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -464,7 +486,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-m-ram-charan',
 			name: 'M Ram Charan',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/nqv8mN9z/Whats-App-Image-2026-02-17-at-8-49-37-PM-Medaboina-Ram-Charan.jpg',
 			github: 'https://github.com/medaboinacharan-pixel',
 			linkedin: 'https://www.linkedin.com/in/ram-charan-b551133ab/',
@@ -476,7 +498,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-navya-d',
 			name: 'Navya D',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/xTstHjX/IMG-20260218-011209-Navya-D.jpg',
 			github: 'https://github.com/navyads138-star',
 			linkedin: 'https://www.linkedin.com/in/navya-d-a1b187383?utm_source=share_via&utm_content=profile&utm_medium=member_android',
@@ -488,7 +510,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-n-sherly',
 			name: 'N Sherly',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/n8Ydcd1R/IMG-20260217-164402-1-Sherly-N.jpg',
 			github: 'https://github.com/sherlyns138-crypto',
 			linkedin: 'https://www.linkedin.com/in/sherly-n-407881382/',
@@ -500,7 +522,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-nithyanandharaj-m',
 			name: 'Nithyanandharaj M',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/Q3Fn3KBd/IMG-20260217-145330-Nithyanandharaj-M.jpg',
 			github: 'https://github.com/nithyanandharajms138-debug',
 			linkedin: 'https://www.linkedin.com/in/nithyanandharaj-m-728189383',
@@ -512,7 +534,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-pradheesh-s',
 			name: 'Pradheesh S',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/F46Fr5FB/Benjamin-Pradheesh-S.jpg',
 			github: 'https://github.com/pradheesh08-s',
 			linkedin: 'https://www.linkedin.com/in/pradheesh-s-a7a7a0381/',
@@ -524,7 +546,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-prasanna-kumar-a',
 			name: 'Prasanna Kumar A',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/HfBSScKZ/20260112-122625-1-Prasanna-Kumar-A.jpg',
 			github: 'https://github.com/prasannaas138-alt',
 			linkedin: 'https://www.linkedin.com/in/prasanna-kumar-a0a055384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -537,11 +559,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-purushothaman-k',
 			name: 'Purushothaman K',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/B52Vd8x8/ph-PURUSHOTHAMAN-K.jpg',
 			github: 'https://github.com/purushothaman2307',
 			linkedin: 'https://www.linkedin.com/in/purushothaman-k-82129a325?utm_source=share_via&utm_content=profile&utm_medium=member_android',
-			bio: 'B.Tech CSE Fresher | Future Software Developer | Passionate about Coding, AI & Web Technologies.',
+			bio: 'My hobby is sports and Iam studying in B.Tech CSE Applied AI in St Joseph University',
 			dream: '',
 			skills: [],
 			projects: []
@@ -549,7 +571,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-sandeep-v',
 			name: 'Sandeep V',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/WNyZR8J4/2026-02-17-Sandeep-V.jpg',
 			github: 'https://github.com/sandeepvs138-dev',
 			linkedin: 'https://www.linkedin.com/in/sandeep-v-947063384/',
@@ -561,7 +583,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-sanjay-chelliah',
 			name: 'Sanjay Chelliah',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/WNC3Kxjq/unnamed-Sanjay-Chelliah.jpg',
 			github: 'https://github.com/SanCheS138',
 			linkedin: 'https://www.linkedin.com/in/sanjay-c-606981384',
@@ -573,11 +595,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-sasi-mahesh',
 			name: 'Sasi Mahesh',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/sdp5QWCt/IMG-20251229-210000-Sasi-Mahesh.png',
 			github: '',
 			linkedin: 'https://www.linkedin.com/in/sasi-mahesh-2aa3b4384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-			bio: 'My self Sasi Mahesh,I am student of squad 138.',
+			bio: '"Hi, I’m Sasi Mahesh a curious and driven first-year college student who believes growth begins where comfort ends. I’m passionate about learning new concepts, especially in technology, and constantly look for ways to sharpen my skills and think differently. I enjoy collaborating with people, brainstorming ideas, and solving problems that push me to think deeper.',
 			dream: '',
 			skills: [],
 			projects: []
@@ -585,11 +607,11 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-shree-vidhya-t',
 			name: 'Shree Vidhya T',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/8gYP0vD5/Screenshot-20251031-085922-Whats-App-2-Shree-Vidhya-T.jpg',
 			github: 'https://github.com/shreevidhyats138-cmyk',
 			linkedin: 'https://www.linkedin.com/in/shree-v-5a60a0382?utm_source=share_via&utm_content=profile&utm_medium=member_android',
-			bio: 'Good Coder ',
+			bio: 'Hi, I’m Shree Vidhya. I’m currently a first-year college student who is passionate about learning and improving my skills. I’m a dedicated and responsible person who enjoys teamwork and taking on new challenges. I’m always eager to grow both personally and professionally.',
 			dream: '',
 			skills: [],
 			projects: []
@@ -597,7 +619,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-surjith-sri-k',
 			name: 'Surjith Sri K',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/NdGgkR66/passport-size-photo-Surjith-Sri-K.jpg',
 			github: 'https://github.com/surjithks138',
 			linkedin: 'https://kalvium.community/',
@@ -609,7 +631,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-tavanidhiragavi-b-b',
 			name: 'Tavanidhiragavi B B',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/2YMJq3hS/RAGAVI-Tavanidhiragavi-B-B.jpg',
 			github: 'https://github.com/tavanidhiragavibbs138-rgb',
 			linkedin: 'https://www.linkedin.com/in/tavanidhiragavi-b-b-0068b03a2?utm_source=share_via&utm_content=profile&utm_medium=member_android',
@@ -621,7 +643,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-udhaya-e',
 			name: 'Udhaya E',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/ym7w9FpD/udhaya-Udhaya-E.jpg',
 			github: 'https://github.com/udhayaes138-spec',
 			linkedin: 'https://www.linkedin.com/in/udhaya-e-a1b443383/',
@@ -633,7 +655,7 @@ document.addEventListener('DOMContentLoaded', () => {
 		{
 			id: 'folks-vignesh-m',
 			name: 'Vignesh M',
-			role: 'Fellow',
+			role: 'Folk',
 			image: 'https://i.ibb.co/272Z8T7q/Screenshot-2026-02-17-130437-Vignesh-M.png',
 			github: 'https://github.com/vigneshms138-creator',
 			linkedin: 'https://www.linkedin.com/in/vignesh-m-2b1690383?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -643,7 +665,7 @@ document.addEventListener('DOMContentLoaded', () => {
 			projects: []
 		},
 		
-	]
+	];
 	// -----------------------------
 	// 2. INDEX PAGE RENDERING
 // -----------------------------
@@ -656,17 +678,19 @@ document.addEventListener('DOMContentLoaded', () => {
 		return squadMembers.find(m => m.id === id);
 	}
 
-	// Helper: Render a mentor or fellow card
-	function renderCard(member, cardType = 'fellow') {
+	const fallbackAvatar = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><rect width="200" height="200" fill="%23181818"/><circle cx="100" cy="78" r="34" fill="%23730c1e"/><rect x="48" y="122" width="104" height="52" rx="26" fill="%23730c1e"/></svg>';
+
+	// Helper: Render a mentor or folk card
+	function renderCard(member, cardType = 'folk') {
 		const card = document.createElement('div');
-		card.className = cardType === 'mentor' ? 'mentor-card fade-in-element' : 'fellow-card fade-in-element';
-		if (cardType === 'mentor' && member.role === 'Main Mentor') card.classList.add('mentor-main');
-		if (cardType === 'mentor' && member.role !== 'Main Mentor') card.classList.add('mentor-secondary');
-		if (cardType === 'fellow') card.tabIndex = 0;
+		card.className = cardType === 'mentor' ? 'mentor-card fade-in-element' : 'folk-card fade-in-element';
+		if (cardType === 'mentor' && (member.role === 'Main Mentor' || member.role === 'Program Manager')) card.classList.add('mentor-main');
+		if (cardType === 'mentor' && member.role === 'Mentor') card.classList.add('mentor-secondary');
+		if (cardType === 'folk') card.tabIndex = 0;
 		// Image
 		const img = document.createElement('div');
-		img.className = cardType === 'mentor' ? 'mentor-photo' : 'fellow-photo';
-		if (cardType === 'mentor' && member.role === 'Main Mentor') img.classList.add('mentor-photo-main');
+		img.className = cardType === 'mentor' ? 'mentor-photo' : 'folk-photo';
+		if (cardType === 'mentor' && (member.role === 'Main Mentor' || member.role === 'Program Manager')) img.classList.add('mentor-photo-main');
         
         const imageElement = document.createElement('img');
         imageElement.src = member.image;
@@ -675,12 +699,17 @@ document.addEventListener('DOMContentLoaded', () => {
         imageElement.style.height = '100%';
         imageElement.style.objectFit = 'cover';
         imageElement.style.borderRadius = '50%';
+		imageElement.loading = 'lazy';
+		imageElement.onerror = () => {
+			imageElement.onerror = null;
+			imageElement.src = fallbackAvatar;
+		};
         img.appendChild(imageElement);
 
 		img.setAttribute('aria-label', member.name);
 		// Name
 		const name = document.createElement('div');
-		name.className = cardType === 'mentor' ? 'mentor-name' : 'fellow-name';
+		name.className = cardType === 'mentor' ? 'mentor-name' : 'folk-name';
 		name.textContent = member.name;
 		card.appendChild(img);
 		card.appendChild(name);
@@ -693,10 +722,14 @@ document.addEventListener('DOMContentLoaded', () => {
 		}
 		// Click to profile
 		card.addEventListener('click', () => {
+			sessionStorage.setItem('fromStudent', 'true');
 			window.location.href = `student.html?id=${member.id}`;
 		});
 		card.addEventListener('keypress', e => {
-			if (e.key === 'Enter') window.location.href = `student.html?id=${member.id}`;
+			if (e.key === 'Enter' || e.key === ' ') {
+				sessionStorage.setItem('fromStudent', 'true');
+				window.location.href = `student.html?id=${member.id}`;
+			}
 		});
 
 		return card;
@@ -705,31 +738,55 @@ document.addEventListener('DOMContentLoaded', () => {
 	if (isIndex) {
 		// Render mentors
 		const mentorsGrid = document.querySelector('.mentors-grid');
+		const folksGrid = document.getElementById('folksGrid');
+		const allFolks = squadMembers.filter(m => m.role === 'Folk');
+
+		function renderFolksRows(folks) {
+			if (!folksGrid) return;
+			folksGrid.innerHTML = '';
+
+			if (!folks.length) {
+				const emptyState = document.createElement('div');
+				emptyState.className = 'folks-row folks-empty-row';
+
+				const message = document.createElement('div');
+				message.className = 'folks-empty-state';
+				message.textContent = 'No Folks Found';
+				emptyState.appendChild(message);
+				folksGrid.appendChild(emptyState);
+				return;
+			}
+
+			for (let index = 0; index < folks.length; index += 4) {
+				const row = document.createElement('div');
+				row.className = 'folks-row';
+				folks.slice(index, index + 4).forEach(folk => {
+					row.appendChild(renderCard(folk, 'folk'));
+				});
+				folksGrid.appendChild(row);
+			}
+		}
+
 		if (mentorsGrid) {
 			// Main mentor
 			const mainMentor = squadMembers.find(m => m.role === 'Program Manager');
 			const mentors = squadMembers.filter(m => m.role === 'Mentor');
 			mentorsGrid.innerHTML = '';
-			mentorsGrid.appendChild(renderCard(mainMentor, 'mentor'));
+			if (mainMentor) mentorsGrid.appendChild(renderCard(mainMentor, 'mentor'));
 			mentors.forEach(mentor => mentorsGrid.appendChild(renderCard(mentor, 'mentor')));
 		}
-		// Render fellows
-		const fellowsGrid = document.getElementById('fellowsGrid');
-		if (fellowsGrid) {
-			fellowsGrid.innerHTML = '';
-			squadMembers.filter(m => m.role === 'Fellow').forEach(fellow => {
-				fellowsGrid.appendChild(renderCard(fellow, 'fellow'));
-			});
-		}
+
+		// Render folks
+		renderFolksRows(allFolks);
+
 		// Search filter
 		const searchInput = document.getElementById('searchInput');
-		if (searchInput && fellowsGrid) {
+		if (searchInput && folksGrid) {
 			searchInput.addEventListener('input', e => {
-				const val = e.target.value.toLowerCase();
-				fellowsGrid.innerHTML = '';
-				squadMembers.filter(m => m.role === 'Fellow' && m.name.toLowerCase().includes(val)).forEach(fellow => {
-					fellowsGrid.appendChild(renderCard(fellow, 'fellow'));
-				});
+				const normalize = (value) => (value || '').toLowerCase().trim().replace(/\s+/g, ' ');
+				const val = normalize(e.target.value);
+				const filteredFolks = allFolks.filter(folk => normalize(folk.name).includes(val));
+				renderFolksRows(filteredFolks);
 			});
 		}
 	}
@@ -743,13 +800,23 @@ document.addEventListener('DOMContentLoaded', () => {
 		if (img) {
 			img.src = member.image;
 			img.alt = member.name;
+			img.onerror = () => {
+				img.onerror = null;
+				img.src = fallbackAvatar;
+			};
 		}
 		const name = document.getElementById('profileName');
 		if (name) name.textContent = member.name;
 		const role = document.getElementById('profileRole');
 		if (role) role.textContent = member.role;
 		const github = document.getElementById('profileGithub');
-		if (github) github.href = member.github;
+		if (github) {
+			if (member.role === 'Program Manager') {
+				github.style.display = 'none';
+			} else {
+				github.href = member.github;
+			}
+		}
 		const linkedin = document.getElementById('profileLinkedin');
 		if (linkedin) linkedin.href = member.linkedin;
 		const bio = document.getElementById('profileBio');
