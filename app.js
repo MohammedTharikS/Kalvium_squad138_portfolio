@@ -192,561 +192,474 @@ document.addEventListener('DOMContentLoaded', () => {
 		// Main Mentor
 		{
 			id: 'main-mentor',
-			name: 'Dr. Aryan Kapoor',
+			name: 'Karunakaran.H',
 			role: 'Main Mentor',
-			image: 'images/aryan.jpg',
-			github: 'https://github.com/aryankapoor',
-			linkedin: 'https://linkedin.com/in/aryankapoor',
-			bio: 'Lead architect and mentor with 15+ years in FinTech and EdTech. Passionate about building elite developer teams.',
-			dream: 'Empowering the next generation of tech leaders.',
-			skills: ['Leadership', 'React', 'Node.js', 'Cloud', 'FinTech'],
-			projects: [
-				{ title: 'FinEdge Platform', description: 'A scalable digital banking solution for emerging markets.', link: 'https://github.com/aryankapoor/finedge' },
-				{ title: 'MentorHub', description: 'AI-powered mentorship matching for tech fellows.', link: 'https://github.com/aryankapoor/mentorhub' }
-			]
+			image: 'https://i.ibb.co/fdx5tJG2/Karunakaran-H-Karunakaran.jpg',
+			github:'https://github.com/',
+			linkedin: 'https://www.linkedin.com/in/h-karunakaran-3b1285376',
+			bio: 'Karunakaran is a dedicated academic professional passionate about student development, technology-driven learning, and building strong campus communities. He focuses on mentoring students in problem solving, discipline, and career readiness. With a commitment to continuous improvement, he works closely with squads to create an environment that encourages creativity, accountability, and practical learning.',
+			
 		},
 		// Mentor 1
 		{
-			id: 'mentor-jaya',
-			name: 'Jaya Menon',
+			id: 'mentor-aravind',
+			name: 'Aravind.R',
 			role: 'Mentor',
-			image: 'images/jaya.jpg',
-			github: 'https://github.com/jayamenon',
-			linkedin: 'https://linkedin.com/in/jayamenon',
-			bio: 'UI/UX specialist and product designer. Loves crafting beautiful, accessible interfaces.',
-			dream: 'Designing products that change lives.',
-			skills: ['UI/UX', 'Figma', 'Accessibility', 'React'],
-			projects: [
-				{ title: 'Pulse UI Kit', description: 'A modern UI kit for FinTech dashboards.', link: 'https://github.com/jayamenon/pulse-ui' }
-			]
+			image: 'https://i.ibb.co/JFjMddRh/Aravind-R-2.jpg',
+			github: 'https://github.com/Aravindrathenam',
+			linkedin: 'https://www.linkedin.com/in/aravind-r-812634245/',
+			bio: 'Currently a professional Wait, why is it doing that? investigator at Kalvium. As an Academic Mentor, I spend my days helping students realize that 90% of coding is just staring at a screen until the screen blinks first. I’m part-time debugger, part-time cheerleader, and full-time convinced that the semicolon is the most powerful character in the English language. I don’t just teach people how to code; I teach them how to not throw their laptops out the window.',
+
 		},
 		// Mentor 2
 		{
-			id: 'mentor-rahul',
-			name: 'Rahul Deshmukh',
+			id: 'mentor-hanuram',
+			name: 'Hanuram.T',
 			role: 'Mentor',
-			image: 'images/rahul.jpg',
-			github: 'https://github.com/rahuldeshmukh',
-			linkedin: 'https://linkedin.com/in/rahuldeshmukh',
-			bio: 'Backend engineer and DevOps mentor. Enjoys automating everything.',
-			dream: 'Building systems that never go down.',
-			skills: ['Node.js', 'DevOps', 'AWS', 'Docker'],
-			projects: [
-				{ title: 'AutoDeploy', description: 'CI/CD automation for cloud-native apps.', link: 'https://github.com/rahuldeshmukh/autodeploy' }
-			]
+			image: 'https://i.ibb.co/ynQ90dvT/IMG-3197-Hanuram-T.jpg',
+			github: 'https://github.com/Mentor-Ram',
+			linkedin: 'https://www.linkedin.com/in/hanuram-t',
+			bio: 'Academic mentor cum business analyst, balancing logic, data, and good vibes.',
+			
 		},
-		// Demo Fellows
+		// Folks (index.html)
 		{
-			id: 'fellow-aarav',
-			name: 'Aarav Kumar',
+			id: 'folks-aravind-selva-jas-j-s',
+			name: 'Aravind Selva Jas J S',
 			role: 'Fellow',
-			image: 'images/aarav.jpg',
-			github: 'https://github.com/aaravkumar',
-			linkedin: 'https://linkedin.com/in/aaravkumar',
-			bio: 'Front-end enthusiast. Loves React and design systems.',
-			dream: 'To build products used by millions.',
-			skills: ['React', 'JavaScript', 'CSS'],
-			projects: [
-				{ title: 'Taskly', description: 'A productivity app for teams.', link: 'https://github.com/aaravkumar/taskly' }
-			]
+			image: 'https://i.ibb.co/4nK0j9MH/250310106005-Arvind-selva-Jas-J-S.jpg',
+			github: 'https://github.com/arvindselvajas0222-coder',
+			linkedin: 'https://www.linkedin.com/in/arvind-selva-jas-j-s-68a79b381/',
+			bio: 'I am a passionate and dedicated student pursuing B.Tech in Computer Science Engineering. I have a strong interest in programming, problem-solving, and exploring new technologies. My goal is to become a skilled software developer and contribute to innovative projects.',
+			dream: '',
+			skills: [],
+			projects: []
 		},
 		{
-			id: 'fellow-priya',
-			name: 'Priya Sharma',
+			id: 'folks-ashwin-raj',
+			name: 'Ashwin Raj',
 			role: 'Fellow',
-			image: 'images/priya.jpg',
-			github: 'https://github.com/priyasharma',
-			linkedin: 'https://linkedin.com/in/priyasharma',
-			bio: 'Full-stack developer. Passionate about APIs and cloud.',
-			dream: 'To launch a SaaS startup.',
-			skills: ['Node.js', 'MongoDB', 'AWS'],
-			projects: [
-				{ title: 'CloudNotes', description: 'A secure note-taking app.', link: 'https://github.com/priyasharma/cloudnotes' }
-			]
+			image: 'https://i.ibb.co/Q7xJVTgt/Generated-Image-October-31-2025-10-37-PM-1-Ashwin-Raj.png',
+			github: 'https://github.com/Partha1107',
+			linkedin: 'https://www.linkedin.com/in/ashwin-raj-002188383?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+			bio: 'My name is Ashwin, and I am currently studying at St. Joseph University. I am very interested in improving my communication skills and becoming more confident in speaking. I enjoy learning programming and exploring new technologies. I always try to develop my skills step by step and work towards becoming a better version of myself.',
+			dream: '',
+			skills: [],
+			projects: []
 		},
 		{
-			id: 'fellow-rohan',
-			name: 'Rohan Mehta',
+			id: 'folks-ashwath-palanisamy',
+			name: 'Ashwath Palanisamy',
 			role: 'Fellow',
-			image: 'images/rohan.jpg',
-			github: 'https://github.com/rohanmehta',
-			linkedin: 'https://linkedin.com/in/rohanmehta',
-			bio: 'Mobile developer. Flutter and cross-platform advocate.',
-			dream: 'To build the next big mobile app.',
-			skills: ['Flutter', 'Dart', 'Firebase'],
-			projects: [
-				{ title: 'FitTrack', description: 'A fitness tracking app.', link: 'https://github.com/rohanmehta/fittrack' }
-			]
+			image: 'https://i.ibb.co/jmXn5nc/20260217-171252-Ashwath-Palanisamy.jpg',
+			github: 'https://github.com/Ashwath-Palanisamy',
+			linkedin: 'https://www.linkedin.com/in/ashwathpalanisamy/',
+			bio: 'I’m a self‑taught Flutter developer with a passion for learning new technologies and building user‑friendly apps. Skilled in Python, Supabase, and Vercel deployment, I focus on creating secure, scalable solutions while continuously expanding my knowledge. My curiosity drives me to explore modern tools and frameworks to stay ahead in the tech landscape',
+			skills: [],
+			projects: []
 		},
 		{
-			id: 'fellow-sara',
-			name: 'Sara Iqbal',
+			id: 'folks-chandana-s',
+			name: 'Chandana S',
 			role: 'Fellow',
-			image: 'images/sara.jpg',
-			github: 'https://github.com/saraiqbal',
-			linkedin: 'https://linkedin.com/in/saraiqbal',
-			bio: 'Data science fellow. Loves ML and data viz.',
-			dream: 'To make AI accessible to all.',
-			skills: ['Python', 'Pandas', 'ML'],
-			projects: [
-				{ title: 'Vizly', description: 'A data visualization toolkit.', link: 'https://github.com/saraiqbal/vizly' }
-			]
+			image: 'https://i.ibb.co/s767H4c/photo-1-Chandana-E.jpg',
+			github: 'https://github.com/chandanaes139-lang',
+			linkedin: 'https://www.linkedin.com/in/chandana-elavarasan-a10964384?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+			bio: 'I am a responsible and self-motivated individual who is always willing to learn and improve. I believe in continuous growth, both personally and professionally. I am disciplined, adaptable, and capable of handling responsibilities with sincerity. I value honesty, teamwork, and clear communication. I try to approach every task with dedication and a positive attitude. Even when I face challenges, I remain calm and focused on finding solutions rather than giving up. I am currently working on developing my technical and communication skills to become more confident and efficient in my field. My goal is to build a strong career by staying consistent, hardworking, and open to new opportunities.',
+			dream: '',
+			skills: [],
+			projects: []
 		},
 		{
-			id: 'fellow-dev',
-			name: 'Dev Patel',
+			id: 'folks-chandru-a',
+			name: 'Chandru A',
 			role: 'Fellow',
-			image: 'images/dev.jpg',
-			github: 'https://github.com/devpatel',
-			linkedin: 'https://linkedin.com/in/devpatel',
-			bio: 'Backend and API specialist. Enjoys scalable systems.',
-			dream: 'To architect global platforms.',
-			skills: ['Node.js', 'Express', 'PostgreSQL'],
-			projects: [
-				{ title: 'APIgen', description: 'API scaffolding tool.', link: 'https://github.com/devpatel/apigen' }
-			]
+			image: 'https://i.ibb.co/Yw2J9S2/Screenshot-20260217-200317-Chandru-A.jpg',
+			github: 'https://github.com/chandrua138',
+			linkedin: 'https://www.linkedin.com/in/chandru-a-331451384/',
+			bio: 'Motivated and dedicated student with a strong commitment to academic excellence and continuous learning. Eager to apply knowledge, develop practical skills, and contribute positively to team environments.',
+			dream: '',
+			skills: [],
+			projects: []
 		},
 		{
-				// ...existing code...
+			id: 'folks-chandru-s',
+			name: 'Chandru S',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/dwq9RVLf/250310106011-Chandru-S-Chandru-S.jpg',
+			github: 'https://github.com/chandru24126',
+			linkedin: 'https://www.linkedin.com/in/chandru-sk-999077384',
+			bio: 'Iam chandru ,Learner at kalvium.',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-david-g',
+			name: 'David G',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/RT8WXvHL/david-id-image-DAVID-G.jpg',
+			github: 'https://github.com/davidgs138-cyber',
+			linkedin: 'https://linkedin.com/in/david-g-6bb3323b1',
+			bio: 'I am website developer',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-deboraah-issac-i',
+			name: 'Deboraah Issac I',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/7N2mZktZ/Whats-App-Image-2026-02-17-at-14-00-53-Deboraah-Issac-I.jpg',
+			github: 'https://github.com/deboraahissacats138-cmyx',
+			linkedin: 'https://www.linkedin.com/in/deboraah-issac-ab0813388?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+			bio: 'I am studying in B-Tech CSE',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-deepika-v',
+			name: 'Deepika V',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/FL30m2NF/IMG-20250916-WA0037-Deepika-V.jpg',
+			github: 'https://github.com/deepikavs138-design',
+			linkedin: 'https://www.linkedin.com/in/deepika-v-957099382',
+			bio: 'B.Tech CSE Student | Aspiring Software Developer | Passionate About AI & Web Development | Learning, Building, Growing Chennai, Tamil Nadu, India',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-dhinesh-babu',
+			name: 'Dhinesh Babu',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/WWcMCst2/DSC-1053-copy-jpg-Dhinesh-Babu.jpg',
+			github: 'https://github.com/dhineshbabus138-commit',
+			linkedin: 'https://www.linkedin.com/in/dhinesh-babu-software-engg',
+			bio: 'I am Dhinesh Babu, a focused and ambitious student who is working hard to build strong technical skills in programming and problem-solving. I care about organizing your life, improving your knowledge step by step, and preparing yourself for a successful future career.',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-dinesh-p',
+			name: 'Dinesh P',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/JFnPHszs/IMG-20260125-204551-269-1-Dinesh-P.webp',
+			github: 'https://github.com/dineshps138-ds',
+			linkedin: 'https://www.linkedin.com/in/dinesh-prakasam-a8279a381?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+			bio: 'I am year student in St joseph university in palanchur',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-edupalli-sai-praneeth',
+			name: 'Edupalli Sai Praneeth',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/rG7TpZv5/Whats-App-Image-2026-02-18-at-11-03-54-AM-Edupalli-Sai-Praneeth-Lokesh.jpg',
+			github: 'https://github.com/edupallilokeshs138-bot',
+			linkedin: 'https://www.linkedin.com/in/edupalli-sai-praneeth-3ab348383',
+			bio: 'Hi, I’m Sai Praneeth. I am a passionate and curious student who loves learning new technologies. I enjoy coding and building projects using HTML, CSS, JavaScript, and Python. I am always eager to improve my skills and take on new challenges. My goal is to become a successful software developer and create innovative applications.',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-gkg-arun-ragav',
+			name: 'G.K.G. Arun Ragav',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/YnRwkdp/Gemini-Generated-Image-dzecm0dzecm0dzec-Arun-ragav-G-K-G.png',
+			github: 'https://github.com/arun-ragav',
+			linkedin: 'https://www.linkedin.com/in/arun-ragav-589061384',
+			bio: 'Hi, I’m Arun Ragav G.K.G, an aspiring developer passionate about JavaScript, Python, and web development. I enjoy solving problems, building interactive projects, and continuously improving my coding skills. ',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-gundla-saigoutham',
+			name: 'Gundla Saigoutham',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/PZCHFkBd/Whats-App-Image-2025-10-31-at-10-30-31-fcd3cf49-Gundla-Sai-Gowtham.jpg',
+			github: 'https://github.com/gundlagowthams138-cell',
+			linkedin: 'https://www.linkedin.com/in/gundla-sai-gowtham-985460390/',
+			bio: 'My name is Gundla Sai Gutham. I am a hardworking and dedicated person. I always try to learn new things and improve myself. My goal is to achieve success and make my family proud.',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-haricharan-p',
+			name: 'Hari Charan P',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/Q7YNyrKD/photo-Hari-Charan-P.jpg',
+			github: 'https://github.com/harips138-droid',
+			linkedin: 'https://www.linkedin.com/in/hari-charan-p-5006393b1/',
+			bio: 'I’m Haricharan, a focused and determined individual who believes in constant growth. I adapt quickly to new challenges and strive to improve every day. With a positive mindset and strong work ethic, I aim to achieve success.',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-harshini-j',
+			name: 'Harshini J',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/N2gwZy1M/IMG-20260218-102709-Harshini-J.jpg',
+			github: 'https://github.com/harshinijs138-svg',
+			linkedin: 'https://www.linkedin.com/in/harshini-j-244611383?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+			bio: 'B.Tech CSE Student @ St. Joseph’s University | Kalvium Program | Aspiring Full-Stack Developer | Passionate about Problem Solving',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-jeevanand-j',
+			name: 'Jeevanand J',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/Lh0WD4Wg/IMG-20251116-235142-Jeevanand-Jaisankar.jpg',
+			github: 'https://github.com/jeevanand-jaisankar',
+			linkedin: 'https://www.linkedin.com/in/jeevanand-j-575676281/',
+			bio: 'I’m a CSE student. I’m into building things more than just studying them — electronics projects, hardware-software stuff, racing sim builds. I like figuring out how things work and making them better.',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-karthikeyan',
+			name: 'Karthikeyan',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/YBkYNQNb/my-pic-Karthikeyan-A-E.jpg',
+			github: 'https://github.com/karthikeyan24-kk',
+			linkedin: 'https://www.linkedin.com/in/karthikeyan-a-e-8b3847381/',
+			bio: 'I am learning new things in Kalvium.',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-kishore-r',
+			name: 'Kishore R',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/5WSjXssD/Whats-App-Image-2026-02-17-at-18-55-50-Kishore-R.jpg',
+			github: 'https://github.com/kishorers138-cyber',
+			linkedin: 'https://www.linkedin.com/in/kishore-r-6bb4a6383/',
+			bio: 'I am a friendly and hardworking person. I always try to learn new things and improve myself.',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-manoj-kumar-p',
+			name: 'Manoj Kumar P',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/fz17Bkt3/Screenshot-2026-02-17-125857-Manoj-Kumar-Ponnusamy.png',
+			github: 'https://github.com/manojponnusamy2032-star',
+			linkedin: 'https://www.linkedin.com/in/manoj-kumar-p-621049386',
+			bio: 'I am a dedicated learner focused on building strong fundamentals and practical skills in software development.',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-mohammed-tharik-s',
+			name: 'Mohammed Tharik S',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/9HKsvTRR/id-card-Mohammed-Tharik-S.jpg',
+			github: 'https://github.com/MohammedTharikS',
+			linkedin: 'https://www.linkedin.com/in/mohammed-tharik-s-26b108384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+			bio: 'Motivated and detail-oriented professional committed to excellence.Always eager to learn, adapt, and contribute effectively to meaningful projects.',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-m-ram-charan',
+			name: 'M Ram Charan',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/nqv8mN9z/Whats-App-Image-2026-02-17-at-8-49-37-PM-Medaboina-Ram-Charan.jpg',
+			github: 'https://github.com/medaboinacharan-pixel',
+			linkedin: 'https://www.linkedin.com/in/ram-charan-b551133ab/',
+			bio: 'I am an editor.I turn the raw footage into emotional stories',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-navya-d',
+			name: 'Navya D',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/xTstHjX/IMG-20260218-011209-Navya-D.jpg',
+			github: 'https://github.com/navyads138-star',
+			linkedin: 'https://www.linkedin.com/in/navya-d-a1b187383?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+			bio: 'I am Navya, a B.Tech CSE (Applied AI) student at St. Joseph University, powered by Kalvium, with my schooling completed at Sri Chaitanya Techno School. Passionate about combining creativity with technology, I bring a curious mindset that drives me to learn, explore, and solve real-world problems through innovative AI-driven solutions.',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-n-sherly',
+			name: 'N Sherly',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/n8Ydcd1R/IMG-20260217-164402-1-Sherly-N.jpg',
+			github: 'https://github.com/sherlyns138-crypto',
+			linkedin: 'https://www.linkedin.com/in/sherly-n-407881382/',
+			bio: 'First-Year B. Tech CSE Student, Aspiring Software Developer, Eager to Learn, Solve & Build. Computer Science Undergraduate, Exploring Coding, AI & Web Development',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-nithyanandharaj-m',
+			name: 'Nithyanandharaj M',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/Q3Fn3KBd/IMG-20260217-145330-Nithyanandharaj-M.jpg',
+			github: 'https://github.com/nithyanandharajms138-debug',
+			linkedin: 'https://www.linkedin.com/in/nithyanandharaj-m-728189383',
+			bio: 'I am a first-year Computer Science student at Kalvium (St. Joseph’s University, Chennai), passionate about solving problems and building solutions through technology. I enjoy coding and have been learning Python, Java and JavaScript to strengthen my programming skills.I see myself as a creative thinker and logical problem solver who loves taking on challenges that require innovative solutions. ',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-pradheesh-s',
+			name: 'Pradheesh S',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/F46Fr5FB/Benjamin-Pradheesh-S.jpg',
+			github: 'https://github.com/pradheesh08-s',
+			linkedin: 'https://www.linkedin.com/in/pradheesh-s-a7a7a0381/',
+			bio: '"I am a First-Year B.Tech student at Kalvium with a strong interest in technology and cybersecurity. As a beginner in cybersecurity, I am actively learning the fundamentals of network security, ethical hacking, and system protection.I am passionate about understanding how systems work and how to secure them against vulnerabilities and threats. Currently, I am building my programming skills and exploring concepts like encryption, secure coding practices, and digital safety.My goal is to grow into a skilled cybersecurity professional who can help organizations protect their data and infrastructure. I am always eager to learn, experiment, and improve my technical skills.',
+			dream: '',
+			skills: [],
+			projects: []
+		},
+		{
+			id: 'folks-prasanna-kumar-a',
+			name: 'Prasanna Kumar A',
+			role: 'Fellow',
+			image: 'https://i.ibb.co/HfBSScKZ/20260112-122625-1-Prasanna-Kumar-A.jpg',
+			github: 'https://github.com/prasannaas138-alt',
+			linkedin: 'https://www.linkedin.com/in/prasanna-kumar-a0a055384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+			bio: 'Hi, I’m Prasanna Kumar, a passionate programmer with a strong interest in Python and Artificial Intelligence. I enjoy solving problems, building projects, and exploring how AI can be used to create smart and useful applications.I am continuously learning and improving my skills in Python and AI, and I love turning ideas into real-world solutions through code. My goal is to grow as an AI developer and contribute to innovative and impactful technology.',
+			dream: '',
+			skills: [],
+			projects: []
 
-			id: 'fellow-meera',
-			name: 'Meera Singh',
-			role: 'Fellow',
-			image: 'images/meera.jpg',
-			github: 'https://github.com/meerasingh',
-			linkedin: 'https://linkedin.com/in/meerasingh',
-			bio: 'UI engineer. Loves animation and micro-interactions.',
-			dream: 'To design delightful user experiences.',
-			skills: ['CSS', 'GSAP', 'UI/UX'],
-			projects: [
-				{ title: 'Animagic', description: 'Animation library for the web.', link: 'https://github.com/meerasingh/animagic' }
-			]
 		},
 		{
-			id: 'fellow-kabir',
-			name: 'Kabir Joshi',
+			id: 'folks-purushothaman-k',
+			name: 'Purushothaman K',
 			role: 'Fellow',
-			image: 'images/kabir.jpg',
-			github: 'https://github.com/kabirjoshi',
-			linkedin: 'https://linkedin.com/in/kabirjoshi',
-			bio: 'Full-stack developer passionate about building scalable applications.',
-			dream: 'To create innovative tech solutions.',
-			skills: ['JavaScript', 'React', 'Node.js'],
-			projects: [
-				{ title: 'WebFlow', description: 'Workflow automation platform.', link: 'https://github.com/kabirjoshi/webflow' }
-			]
+			image: 'https://i.ibb.co/B52Vd8x8/ph-PURUSHOTHAMAN-K.jpg',
+			github: 'https://github.com/purushothaman2307',
+			linkedin: 'https://www.linkedin.com/in/purushothaman-k-82129a325?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+			bio: 'B.Tech CSE Fresher | Future Software Developer | Passionate about Coding, AI & Web Technologies.',
+			dream: '',
+			skills: [],
+			projects: []
 		},
 		{
-			id: 'fellow-ananya',
-			name: 'Ananya Rao',
+			id: 'folks-sandeep-v',
+			name: 'Sandeep V',
 			role: 'Fellow',
-			image: 'images/ananya.jpg',
-			github: 'https://github.com/ananyarao',
-			linkedin: 'https://linkedin.com/in/ananyarao',
-			bio: 'Frontend developer with a passion for clean code and UX.',
-			dream: 'To build accessible web applications.',
-			skills: ['HTML', 'CSS', 'JavaScript'],
-			projects: [
-				{ title: 'AccessUI', description: 'Accessible component library.', link: 'https://github.com/ananyarao/accessui' }
-			]
+			image: 'https://i.ibb.co/WNyZR8J4/2026-02-17-Sandeep-V.jpg',
+			github: 'https://github.com/sandeepvs138-dev',
+			linkedin: 'https://www.linkedin.com/in/sandeep-v-947063384/',
+			bio: 'My goal is to build a successful career and continue growing both personally and professionally.',
+			dream: '',
+			skills: [],
+			projects: []
 		},
 		{
-			id: 'fellow-vikram',
-			name: 'Vikram Desai',
+			id: 'folks-sanjay-chelliah',
+			name: 'Sanjay Chelliah',
 			role: 'Fellow',
-			image: 'images/vikram.jpg',
-			github: 'https://github.com/vikramdesai',
-			linkedin: 'https://linkedin.com/in/vikramdesai',
-			bio: 'Backend specialist focused on API development.',
-			dream: 'To architect robust backend systems.',
-			skills: ['Python', 'Django', 'REST APIs'],
-			projects: [
-				{ title: 'FastAPI Pro', description: 'High-performance API framework.', link: 'https://github.com/vikramdesai/fastapi-pro' }
-			]
+			image: 'https://i.ibb.co/WNC3Kxjq/unnamed-Sanjay-Chelliah.jpg',
+			github: 'https://github.com/SanCheS138',
+			linkedin: 'https://www.linkedin.com/in/sanjay-c-606981384',
+			bio: 'I tend to show up quietly, like I was already there before anyone noticed. I say normal things, but there’s usually something slightly off about the timing. I enjoy silence, late hours, and watching the world do its strange little routines. Sometimes I feel like I’m just passing through, taking mental notes for no clear reason. If you ask what I’m thinking, I might say “nothing”… but if you listen closely, you might hear me mumble a certain number more than once.',
+			dream: '',
+			skills: [],
+			projects: []
 		},
 		{
-			id: 'fellow-neha',
-			name: 'Neha Pillai',
+			id: 'folks-sasi-mahesh',
+			name: 'Sasi Mahesh',
 			role: 'Fellow',
-			image: 'images/neha.jpg',
-			github: 'https://github.com/nehapillai',
-			linkedin: 'https://linkedin.com/in/nehapillai',
-			bio: 'Data engineer passionate about big data and analytics.',
-			dream: 'To solve complex data challenges.',
-			skills: ['Python', 'SQL', 'Apache Spark'],
-			projects: [
-				{ title: 'DataPipe', description: 'ETL pipeline framework.', link: 'https://github.com/nehapillai/datapipe' }
-			]
+			image: 'https://i.ibb.co/sdp5QWCt/IMG-20251229-210000-Sasi-Mahesh.png',
+			github: '',
+			linkedin: 'https://www.linkedin.com/in/sasi-mahesh-2aa3b4384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+			bio: 'My self Sasi Mahesh,I am student of squad 138.',
+			dream: '',
+			skills: [],
+			projects: []
 		},
 		{
-			id: 'fellow-siddharth',
-			name: 'Siddharth Jain',
+			id: 'folks-shree-vidhya-t',
+			name: 'Shree Vidhya T',
 			role: 'Fellow',
-			image: 'images/siddharth.jpg',
-			github: 'https://github.com/siddharthjain',
-			linkedin: 'https://linkedin.com/in/siddharthjain',
-			bio: 'DevOps engineer focused on cloud infrastructure.',
-			dream: 'To build resilient cloud systems.',
-			skills: ['Docker', 'Kubernetes', 'AWS'],
-			projects: [
-				{ title: 'CloudOps', description: 'Cloud automation toolkit.', link: 'https://github.com/siddharthjain/cloudops' }
-			]
+			image: 'https://i.ibb.co/8gYP0vD5/Screenshot-20251031-085922-Whats-App-2-Shree-Vidhya-T.jpg',
+			github: 'https://github.com/shreevidhyats138-cmyk',
+			linkedin: 'https://www.linkedin.com/in/shree-v-5a60a0382?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+			bio: 'Good Coder ',
+			dream: '',
+			skills: [],
+			projects: []
 		},
 		{
-			id: 'fellow-ishita',
-			name: 'Ishita Malhotra',
+			id: 'folks-surjith-sri-k',
+			name: 'Surjith Sri K',
 			role: 'Fellow',
-			image: 'images/ishita.jpg',
-			github: 'https://github.com/ishitamalhotra',
-			linkedin: 'https://linkedin.com/in/ishitamalhotra',
-			bio: 'Mobile developer specializing in iOS applications.',
-			dream: 'To create beautiful mobile experiences.',
-			skills: ['Swift', 'iOS', 'UIKit'],
-			projects: [
-				{ title: 'SwiftUI Pro', description: 'SwiftUI component library.', link: 'https://github.com/ishitamalhotra/swiftui-pro' }
-			]
+			image: 'https://i.ibb.co/NdGgkR66/passport-size-photo-Surjith-Sri-K.jpg',
+			github: 'https://github.com/surjithks138',
+			linkedin: 'https://kalvium.community/',
+			bio: 'Hi, I’m Surjith Sri. I’m a student who loves technology and problem-solving. I’m currently preparing for a career as a software engineer and spending time learning Python and development skills.',
+			dream: '',
+			skills: [],
+			projects: []
 		},
 		{
-			id: 'fellow-arjun',
-			name: 'Arjun Nair',
+			id: 'folks-tavanidhiragavi-b-b',
+			name: 'Tavanidhiragavi B B',
 			role: 'Fellow',
-			image: 'images/arjun.jpg',
-			github: 'https://github.com/arjunnair',
-			linkedin: 'https://linkedin.com/in/arjunnair',
-			bio: 'Full-stack developer with expertise in MERN stack.',
-			dream: 'To build scalable web applications.',
-			skills: ['MongoDB', 'Express', 'React'],
-			projects: [
-				{ title: 'MERN Starter', description: 'Boilerplate for MERN apps.', link: 'https://github.com/arjunnair/mern-starter' }
-			]
+			image: 'https://i.ibb.co/2YMJq3hS/RAGAVI-Tavanidhiragavi-B-B.jpg',
+			github: 'https://github.com/tavanidhiragavibbs138-rgb',
+			linkedin: 'https://www.linkedin.com/in/tavanidhiragavi-b-b-0068b03a2?utm_source=share_via&utm_content=profile&utm_medium=member_android',
+			bio: 'I am focused on learning, building, and growing as a software developer',
+			dream: '',
+			skills: [],
+			projects: []
 		},
 		{
-			id: 'fellow-tanya',
-			name: 'Tanya Bhatt',
+			id: 'folks-udhaya-e',
+			name: 'Udhaya E',
 			role: 'Fellow',
-			image: 'images/tanya.jpg',
-			github: 'https://github.com/tanyabhatt',
-			linkedin: 'https://linkedin.com/in/tanyabhatt',
-			bio: 'UI/UX designer and frontend developer.',
-			dream: 'To design products that delight users.',
-			skills: ['Figma', 'React', 'Tailwind CSS'],
-			projects: [
-				{ title: 'DesignKit', description: 'Design system toolkit.', link: 'https://github.com/tanyabhatt/designkit' }
-			]
+			image: 'https://i.ibb.co/ym7w9FpD/udhaya-Udhaya-E.jpg',
+			github: 'https://github.com/udhayaes138-spec',
+			linkedin: 'https://www.linkedin.com/in/udhaya-e-a1b443383/',
+			bio: 'I am a first-year student who is passionate about learning new technologies and improving my skills.I have a strong interest in programming and web development.I enjoy solving problems and working on creative projects.I am always eager to learn, grow, and take on new challenges.My goal is to build a successful career in the technology field.',
+            dream: '',
+			skills: [],
+			projects: []
 		},
 		{
-			id: 'fellow-rahul',
-			name: 'Rahul Choudhary',
+			id: 'folks-vignesh-m',
+			name: 'Vignesh M',
 			role: 'Fellow',
-			image: 'images/rahul-c.jpg',
-			github: 'https://github.com/rahulchoudhary',
-			linkedin: 'https://linkedin.com/in/rahulchoudhary',
-			bio: 'Backend developer focused on microservices architecture.',
-			dream: 'To build distributed systems at scale.',
-			skills: ['Java', 'Spring Boot', 'Microservices'],
-			projects: [
-				{ title: 'MicroFrame', description: 'Microservices framework.', link: 'https://github.com/rahulchoudhary/microframe' }
-			]
+			image: 'https://i.ibb.co/272Z8T7q/Screenshot-2026-02-17-130437-Vignesh-M.png',
+			github: 'https://github.com/vigneshms138-creator',
+			linkedin: 'https://www.linkedin.com/in/vignesh-m-2b1690383?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+			bio: 'I am a first-year Computer Science student at Kalvium, passionate about learning and growing in the field of technology. I enjoy coding, problem-solving, and exploring new technologies. My goal is to build a successful career as a software developer and contribute to innovative projects.',
+			dream: '',
+			skills: [],
+			projects: []
 		},
-		{
-			id: 'fellow-sneha',
-			name: 'Sneha Reddy',
-			role: 'Fellow',
-			image: 'images/sneha.jpg',
-			github: 'https://github.com/snehareddy',
-			linkedin: 'https://linkedin.com/in/snehareddy',
-			bio: 'Machine learning engineer passionate about AI.',
-			dream: 'To make AI accessible to everyone.',
-			skills: ['Python', 'TensorFlow', 'scikit-learn'],
-			projects: [
-				{ title: 'MLKit', description: 'Machine learning toolkit.', link: 'https://github.com/snehareddy/mlkit' }
-			]
-		},
-		{
-			id: 'fellow-karan',
-			name: 'Karan Sethi',
-			role: 'Fellow',
-			image: 'images/karan.jpg',
-			github: 'https://github.com/karansethi',
-			linkedin: 'https://linkedin.com/in/karansethi',
-			bio: 'Game developer and graphics programmer.',
-			dream: 'To create immersive gaming experiences.',
-			skills: ['Unity', 'C#', '3D Graphics'],
-			projects: [
-				{ title: 'GameEngine', description: '2D game engine.', link: 'https://github.com/karansethi/gameengine' }
-			]
-		},
-		{
-			id: 'fellow-simran',
-			name: 'Simran Kaur',
-			role: 'Fellow',
-			image: 'images/simran.jpg',
-			github: 'https://github.com/simrankaur',
-			linkedin: 'https://linkedin.com/in/simrankaur',
-			bio: 'Cybersecurity enthusiast and ethical hacker.',
-			dream: 'To make the internet safer.',
-			skills: ['Security', 'Penetration Testing', 'Python'],
-			projects: [
-				{ title: 'SecureVault', description: 'Password manager.', link: 'https://github.com/simrankaur/securevault' }
-			]
-		},
-		{
-			id: 'fellow-manav',
-			name: 'Manav Gupta',
-			role: 'Fellow',
-			image: 'images/manav.jpg',
-			github: 'https://github.com/manavgupta',
-			linkedin: 'https://linkedin.com/in/manavgupta',
-			bio: 'Blockchain developer exploring Web3.',
-			dream: 'To build decentralized applications.',
-			skills: ['Solidity', 'Ethereum', 'Web3.js'],
-			projects: [
-				{ title: 'DApp Starter', description: 'Decentralized app boilerplate.', link: 'https://github.com/manavgupta/dapp-starter' }
-			]
-		},
-		{
-			id: 'fellow-aditi',
-			name: 'Aditi Verma',
-			role: 'Fellow',
-			image: 'images/aditi.jpg',
-			github: 'https://github.com/aditiverma',
-			linkedin: 'https://linkedin.com/in/aditiverma',
-			bio: 'QA engineer passionate about test automation.',
-			dream: 'To ensure flawless software quality.',
-			skills: ['Selenium', 'Jest', 'Cypress'],
-			projects: [
-				{ title: 'AutoTest', description: 'Test automation framework.', link: 'https://github.com/aditiverma/autotest' }
-			]
-		},
-		{
-			id: 'fellow-yash',
-			name: 'Yash Agarwal',
-			role: 'Fellow',
-			image: 'images/yash.jpg',
-			github: 'https://github.com/yashagarwal',
-			linkedin: 'https://linkedin.com/in/yashagarwal',
-			bio: 'Cloud architect specializing in serverless.',
-			dream: 'To build cost-effective cloud solutions.',
-			skills: ['AWS Lambda', 'Serverless', 'CloudFormation'],
-			projects: [
-				{ title: 'ServerlessKit', description: 'Serverless toolkit.', link: 'https://github.com/yashagarwal/serverlesskit' }
-			]
-		},
-		{
-			id: 'fellow-riya',
-			name: 'Riya Sen',
-			role: 'Fellow',
-			image: 'images/riya.jpg',
-			github: 'https://github.com/riyasen',
-			linkedin: 'https://linkedin.com/in/riyasen',
-			bio: 'Product manager with a technical background.',
-			dream: 'To build products users love.',
-			skills: ['Product Management', 'Agile', 'SQL'],
-			projects: [
-				{ title: 'ProductFlow', description: 'Product roadmap tool.', link: 'https://github.com/riyasen/productflow' }
-			]
-		},
-		{
-			id: 'fellow-mohit',
-			name: 'Mohit Bansal',
-			role: 'Fellow',
-			image: 'images/mohit.jpg',
-			github: 'https://github.com/mohitbansal',
-			linkedin: 'https://linkedin.com/in/mohitbansal',
-			bio: 'Performance optimization specialist.',
-			dream: 'To make web apps lightning fast.',
-			skills: ['Performance', 'Web Vitals', 'Optimization'],
-			projects: [
-				{ title: 'SpeedKit', description: 'Web performance toolkit.', link: 'https://github.com/mohitbansal/speedkit' }
-			]
-		},
-		{
-			id: 'fellow-pooja',
-			name: 'Pooja Nair',
-			role: 'Fellow',
-			image: 'images/pooja.jpg',
-			github: 'https://github.com/poojanair',
-			linkedin: 'https://linkedin.com/in/poojanair',
-			bio: 'Technical writer and documentation specialist.',
-			dream: 'To make complex tech easy to understand.',
-			skills: ['Technical Writing', 'Markdown', 'Documentation'],
-			projects: [
-				{ title: 'DocGen', description: 'Documentation generator.', link: 'https://github.com/poojanair/docgen' }
-			]
-		},
-		{
-			id: 'fellow-saurabh',
-			name: 'Saurabh Mishra',
-			role: 'Fellow',
-			image: 'images/saurabh.jpg',
-			github: 'https://github.com/saurabhmishra',
-			linkedin: 'https://linkedin.com/in/saurabhmishra',
-			bio: 'Database administrator and SQL expert.',
-			dream: 'To optimize data at scale.',
-			skills: ['PostgreSQL', 'MySQL', 'Database Design'],
-			projects: [
-				{ title: 'QueryOptimizer', description: 'SQL query optimization tool.', link: 'https://github.com/saurabhmishra/queryoptimizer' }
-			]
-		},
-		{
-			id: 'fellow-nikita',
-			name: 'Nikita Das',
-			role: 'Fellow',
-			image: 'images/nikita.jpg',
-			github: 'https://github.com/nikitadas',
-			linkedin: 'https://linkedin.com/in/nikitadas',
-			bio: 'AR/VR developer creating immersive experiences.',
-			dream: 'To build the metaverse.',
-			skills: ['Unity', 'AR', 'VR'],
-			projects: [
-				{ title: 'VRWorld', description: 'Virtual reality platform.', link: 'https://github.com/nikitadas/vrworld' }
-			]
-		},
-		{
-			id: 'fellow-aditya',
-			name: 'Aditya Singh',
-			role: 'Fellow',
-			image: 'images/aditya.jpg',
-			github: 'https://github.com/adityasingh',
-			linkedin: 'https://linkedin.com/in/adityasingh',
-			bio: 'Systems programmer working with low-level code.',
-			dream: 'To build efficient system software.',
-			skills: ['C++', 'Systems Programming', 'Linux'],
-			projects: [
-				{ title: 'SysCore', description: 'System utilities library.', link: 'https://github.com/adityasingh/syscore' }
-			]
-		},
-		{
-			id: 'fellow-shreya',
-			name: 'Shreya Kapoor',
-			role: 'Fellow',
-			image: 'images/shreya.jpg',
-			github: 'https://github.com/shreyakapoor',
-			linkedin: 'https://linkedin.com/in/shreyakapoor',
-			bio: 'IoT developer working with connected devices.',
-			dream: 'To connect the physical and digital worlds.',
-			skills: ['IoT', 'Arduino', 'Raspberry Pi'],
-			projects: [
-				{ title: 'SmartHome', description: 'Home automation system.', link: 'https://github.com/shreyakapoor/smarthome' }
-			]
-		},
-		{
-			id: 'fellow-vishal',
-			name: 'Vishal Chauhan',
-			role: 'Fellow',
-			image: 'images/vishal.jpg',
-			github: 'https://github.com/vishalchauhan',
-			linkedin: 'https://linkedin.com/in/vishalchauhan',
-			bio: 'Network engineer and infrastructure specialist.',
-			dream: 'To build reliable network infrastructure.',
-			skills: ['Networking', 'Cisco', 'Network Security'],
-			projects: [
-				{ title: 'NetMonitor', description: 'Network monitoring tool.', link: 'https://github.com/vishalchauhan/netmonitor' }
-			]
-		},
-		{
-			id: 'fellow-lavanya',
-			name: 'Lavanya Menon',
-			role: 'Fellow',
-			image: 'images/lavanya.jpg',
-			github: 'https://github.com/lavanyamenon',
-			linkedin: 'https://linkedin.com/in/lavanyamenon',
-			bio: 'SEO specialist and digital marketer.',
-			dream: 'To help businesses grow online.',
-			skills: ['SEO', 'Digital Marketing', 'Analytics'],
-			projects: [
-				{ title: 'SEOKit', description: 'SEO optimization toolkit.', link: 'https://github.com/lavanyamenon/seokit' }
-			]
-		},
-		{
-			id: 'fellow-harshita',
-			name: 'Harshita Goyal',
-			role: 'Fellow',
-			image: 'images/harshita.jpg',
-			github: 'https://github.com/harshitagoyal',
-			linkedin: 'https://linkedin.com/in/harshitagoyal',
-			bio: 'Content strategist and community manager.',
-			dream: 'To build engaged online communities.',
-			skills: ['Content Strategy', 'Community Building', 'Social Media'],
-			projects: [
-				{ title: 'CommunityHub', description: 'Community management platform.', link: 'https://github.com/harshitagoyal/communityhub' }
-			]
-		},
-		{
-			id: 'fellow-rajat',
-			name: 'Rajat Tiwari',
-			role: 'Fellow',
-			image: 'images/rajat.jpg',
-			github: 'https://github.com/rajattiwari',
-			linkedin: 'https://linkedin.com/in/rajattiwari',
-			bio: 'Business analyst with coding skills.',
-			dream: 'To bridge business and technology.',
-			skills: ['Business Analysis', 'SQL', 'Power BI'],
-			projects: [
-				{ title: 'BizInsights', description: 'Business intelligence dashboard.', link: 'https://github.com/rajattiwari/bizinsights' }
-			]
-		},
-		{
-			id: 'fellow-sanya',
-			name: 'Sanya Arora',
-			role: 'Fellow',
-			image: 'images/sanya.jpg',
-			github: 'https://github.com/sanyaarora',
-			linkedin: 'https://linkedin.com/in/sanyaarora',
-			bio: 'E-commerce specialist and marketplace developer.',
-			dream: 'To revolutionize online shopping.',
-			skills: ['E-commerce', 'Shopify', 'Payment Gateways'],
-			projects: [
-				{ title: 'ShopPro', description: 'E-commerce platform.', link: 'https://github.com/sanyaarora/shoppro' }
-			]
-		},
-		{
-			id: 'fellow-aman',
-			name: 'Aman Khanna',
-			role: 'Fellow',
-			image: 'images/aman.jpg',
-			github: 'https://github.com/amankhanna',
-			linkedin: 'https://linkedin.com/in/amankhanna',
-			bio: 'EdTech enthusiast building learning platforms.',
-			dream: 'To democratize education through technology.',
-			skills: ['React', 'Node.js', 'LMS'],
-			projects: [
-				{ title: 'LearnHub', description: 'Online learning platform.', link: 'https://github.com/amankhanna/learnhub' }
-			]
-		},
-		{
-			id: 'fellow-shruti',
-			name: 'Shruti Joshi',
-			role: 'Fellow',
-			image: 'images/shruti.jpg',
-			github: 'https://github.com/shrutijoshi',
-			linkedin: 'https://linkedin.com/in/shrutijoshi',
-			bio: 'FinTech developer working on payment solutions.',
-			dream: 'To make financial services accessible.',
-			skills: ['Payment APIs', 'Stripe', 'Security'],
-			projects: [
-				{ title: 'PayFlow', description: 'Payment processing system.', link: 'https://github.com/shrutijoshi/payflow' }
-			]
-		},
-		{
-			id: 'fellow-dhruv',
-			name: 'Dhruv Sharma',
-			role: 'Fellow',
-			image: 'images/dhruv.jpg',
-			github: 'https://github.com/dhruvsharma',
-			linkedin: 'https://linkedin.com/in/dhruvsharma',
-			bio: 'HealthTech developer creating medical software.',
-			dream: 'To improve healthcare through technology.',
-			skills: ['Healthcare IT', 'FHIR', 'Medical Apps'],
-			projects: [
-				{ title: 'HealthTrack', description: 'Health monitoring app.', link: 'https://github.com/dhruvsharma/healthtrack' }
-			]
-		}
-	];
-
+		
+	]
 	// -----------------------------
 	// 2. INDEX PAGE RENDERING
-	// -----------------------------
+// -----------------------------
+
 	const isIndex = document.body && document.querySelector('.hero-section');
 	const isStudent = document.body && document.querySelector('.profile-hero-section');
 
@@ -766,9 +679,16 @@ document.addEventListener('DOMContentLoaded', () => {
 		const img = document.createElement('div');
 		img.className = cardType === 'mentor' ? 'mentor-photo' : 'fellow-photo';
 		if (cardType === 'mentor' && member.role === 'Main Mentor') img.classList.add('mentor-photo-main');
-		img.style.backgroundImage = `url('${member.image}')`;
-		img.style.backgroundSize = 'cover';
-		img.style.backgroundPosition = 'center';
+        
+        const imageElement = document.createElement('img');
+        imageElement.src = member.image;
+        imageElement.alt = member.name;
+        imageElement.style.width = '100%';
+        imageElement.style.height = '100%';
+        imageElement.style.objectFit = 'cover';
+        imageElement.style.borderRadius = '50%';
+        img.appendChild(imageElement);
+
 		img.setAttribute('aria-label', member.name);
 		// Name
 		const name = document.createElement('div');
