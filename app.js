@@ -76,76 +76,75 @@ document.addEventListener('DOMContentLoaded', () => {
 			initScrollAnimations();
 			initProfileCardClicks();
 			restoreMainScrollPosition();
-			return;
+		} else {
+			// ============================================
+			// ANIMATION TIMELINE
+			// ============================================
+			// 0s - 1.2s: Fade in (centered, scale 2.4)
+			// 1.2s - 2s: Hold in center
+			// 2s - 3.4s: Move to exact navbar position (scale 2.4 → 1)
+			// 3.4s - 4s: Navbar fades in
+			// 3.6s - 4.2s: Overlay fades out
+			// ============================================
+			
+			// After 2 seconds: Calculate exact position and animate to navbar
+			setTimeout(() => {
+				// ============================================
+				// STEP 1: Get current positions of both elements
+				// ============================================
+				const navRect = navBrand.getBoundingClientRect();
+				const introRect = introBrand.getBoundingClientRect();
+				
+				// ============================================
+				// STEP 2: Calculate translation difference
+				// We need to move from current intro position to navbar position
+				// ============================================
+				const deltaX = navRect.left - introRect.left;
+				const deltaY = navRect.top - introRect.top;
+				
+				// ============================================
+				// STEP 3: Apply smooth transition with scale down
+				// Intro is at scale(2.4), navbar is at scale(1)
+				// Explicitly set final scale to 1 for exact navbar match
+				// Ultra-smooth cubic-bezier easing for premium feel
+				// ============================================
+				introBrand.style.transition = 'transform 1.4s cubic-bezier(0.22, 1, 0.36, 1)';
+				introBrand.style.transform = `translate(${deltaX}px, ${deltaY}px) scale(1)`;
+				
+				// ============================================
+				// STEP 4: Fade in navbar at 3.4s
+				// No text replacement needed - both have same content
+				// ============================================
+				setTimeout(() => {
+					navbar.style.opacity = '1';
+				}, 1400); // 1.4s after movement starts = 3.4s total
+				
+			}, 2000); // Start movement at 2s
+			
+			// ============================================
+			// STEP 6: Fade out overlay at 3.6s
+			// ============================================
+			setTimeout(() => {
+				introOverlay.style.transition = 'opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1)';
+				introOverlay.style.opacity = '0';
+				
+				// ============================================
+				// STEP 7: Clean up and enable scroll at 4.2s
+				// ============================================
+				setTimeout(() => {
+					document.body.classList.add('intro-complete');
+					introOverlay.remove();
+					
+					// Initialize scroll animations after intro completes
+					initScrollAnimations();
+					
+					// Initialize profile card click handlers
+					initProfileCardClicks();
+					restoreMainScrollPosition();
+				}, 600); // 0.6s fade out
+				
+			}, 3600); // Start fade at 3.6s
 		}
-		
-		// ============================================
-		// ANIMATION TIMELINE
-		// ============================================
-		// 0s - 1.2s: Fade in (centered, scale 2.4)
-		// 1.2s - 2s: Hold in center
-		// 2s - 3.4s: Move to exact navbar position (scale 2.4 → 1)
-		// 3.4s - 4s: Navbar fades in
-		// 3.6s - 4.2s: Overlay fades out
-		// ============================================
-		
-		// After 2 seconds: Calculate exact position and animate to navbar
-		setTimeout(() => {
-			// ============================================
-			// STEP 1: Get current positions of both elements
-			// ============================================
-			const navRect = navBrand.getBoundingClientRect();
-			const introRect = introBrand.getBoundingClientRect();
-			
-			// ============================================
-			// STEP 2: Calculate translation difference
-			// We need to move from current intro position to navbar position
-			// ============================================
-			const deltaX = navRect.left - introRect.left;
-			const deltaY = navRect.top - introRect.top;
-			
-			// ============================================
-			// STEP 3: Apply smooth transition with scale down
-			// Intro is at scale(2.4), navbar is at scale(1)
-			// Explicitly set final scale to 1 for exact navbar match
-			// Ultra-smooth cubic-bezier easing for premium feel
-			// ============================================
-			introBrand.style.transition = 'transform 1.4s cubic-bezier(0.22, 1, 0.36, 1)';
-			introBrand.style.transform = `translate(${deltaX}px, ${deltaY}px) scale(1)`;
-			
-			// ============================================
-			// STEP 4: Fade in navbar at 3.4s
-			// No text replacement needed - both have same content
-			// ============================================
-			setTimeout(() => {
-				navbar.style.opacity = '1';
-			}, 1400); // 1.4s after movement starts = 3.4s total
-			
-		}, 2000); // Start movement at 2s
-		
-		// ============================================
-		// STEP 6: Fade out overlay at 3.6s
-		// ============================================
-		setTimeout(() => {
-			introOverlay.style.transition = 'opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1)';
-			introOverlay.style.opacity = '0';
-			
-			// ============================================
-			// STEP 7: Clean up and enable scroll at 4.2s
-			// ============================================
-			setTimeout(() => {
-				document.body.classList.add('intro-complete');
-				introOverlay.remove();
-				
-				// Initialize scroll animations after intro completes
-				initScrollAnimations();
-				
-				// Initialize profile card click handlers
-				initProfileCardClicks();
-				restoreMainScrollPosition();
-			}, 600); // 0.6s fade out
-			
-		}, 3600); // Start fade at 3.6s
 	} else {
 		// If no intro animation (e.g., page refresh or direct navigation)
 		// Initialize features immediately
